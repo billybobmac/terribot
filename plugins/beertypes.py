@@ -63,7 +63,7 @@ while len(beer_types) < 2000:
 
 def setup():
     # Registers the beertypes plugin.
-    return {'regex': "^.{0,75}", 'act_on_event': 'message', 'cooldown': 1}
+    return {'regex': "^.{0,75}", 'act_on_event': 'message', 'cooldown': 0}
 
 
 def run(msg):
